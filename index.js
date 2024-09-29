@@ -40,8 +40,8 @@ var b_text = document.getElementById('b_text')
 var c_text = document.getElementById('c_text')
 var d_text = document.getElementById('d_text')
 var submitBtn = document.getElementById('submit')
-let currentQuiz = 0
-let score = 0
+var currentQuiz = 0
+var score = 0
 loadQuiz()
 function loadQuiz() {
     deselectAnswers()
